@@ -1,0 +1,83 @@
+.footer {
+    background-color: goldenrod;
+    color: #cbcbcb;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -5px;
+}
+
+.footer > .logo-footer img {
+width: 180px;
+height: 100%;
+}
+
+.footer > .footer-phone-hour span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: royalblue;
+
+}
+
+.footer > .footer-phone-hour > .hour {
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin: 20px 0px;
+    width: 400px;   
+}
+
+.footer > .social-media-icon-wrapper {
+   margin-bottom: 20px;
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+
+.footer > .social-media-icon-wrapper > .icon {
+    width: 120px;
+}
+
+.footer > .social-media-icon-wrapper > .icon > a {
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icon-wrapper > .icon > a:hover {
+    color: #cbcbcb;
+}
+
+
+.footer > .links-wrapper > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer > .links-wrapper > .nav-links > .nav-link {
+    width: 120px;
+}
+
+
+.footer > .links-wrapper > .nav-links > .nav-link > a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer > .links-wrapper > .nav-links > .nav-link > a:hover {
+    color: purple;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer > .copyright-wrapper {
+    color: purple;
+    margin-top: 50px;
+}
